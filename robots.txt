@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://akronex.com.sa/sitemap.xml
+
+# إضافي (اختياري لتحسين الـ SEO)
+# يحظر أرشفة ملفات النظام أو التجارب المؤقتة
+Disallow: /temp/
+Disallow: /draft/
+Disallow: /private/
+
+# معلومات إضافية للمطورين أو Googlebot
+Host: akronex.com.sa
